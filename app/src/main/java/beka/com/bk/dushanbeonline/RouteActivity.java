@@ -63,7 +63,7 @@ import beka.com.bk.dushanbeonline.custom_views.TopLabel;
 
 public class RouteActivity extends AppCompatActivity implements DrivingSession.DrivingRouteListener {
 
-    private final String MAPKIT_API_KEY = "e7223c7a-7840-41e3-b4c7-7ef8948c63e4";
+    private final String MAPKIT_API_KEY = "NoKeyForGit)";
     private Point ROUTE_START_LOCATION = new Point(59.959194, 30.407094);
     private Point ROUTE_END_LOCATION = new Point(55.733330, 37.587649);
     private Point SCREEN_CENTER = new Point(

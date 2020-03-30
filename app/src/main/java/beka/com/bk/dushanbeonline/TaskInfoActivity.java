@@ -119,7 +119,7 @@ public class TaskInfoActivity extends AppCompatActivity {
         date = new Date();
         imgProv = ImageProvider.fromAsset(this, "navi_icon_set.png");
 
-        MapKitFactory.setApiKey("e7223c7a-7840-41e3-b4c7-7ef8948c63e4");
+        MapKitFactory.setApiKey("NoKeyForGit");
         MapKitFactory.initialize(this);
         lang = getIntent().getIntExtra("lang", 1);
         id = getIntent().getStringExtra("id");

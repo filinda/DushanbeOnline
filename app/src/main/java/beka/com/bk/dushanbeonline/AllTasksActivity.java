@@ -361,7 +361,7 @@ public class AllTasksActivity extends AppCompatActivity {
         topLabel.mapBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MapKitFactory.setApiKey("e7223c7a-7840-41e3-b4c7-7ef8948c63e4");
+                MapKitFactory.setApiKey("NoKeyForGit");
                 MapKitFactory.initialize(AllTasksActivity.this);
                 Intent intent = new Intent(AllTasksActivity.this, AllTasksMapActivity.class);
                 startActivity(intent);

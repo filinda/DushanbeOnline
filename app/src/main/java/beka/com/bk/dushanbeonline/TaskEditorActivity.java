@@ -228,7 +228,7 @@ public class TaskEditorActivity extends AppCompatActivity {
                         resizeGlobal();
                     }
                 });
-        MapKitFactory.setApiKey("e7223c7a-7840-41e3-b4c7-7ef8948c63e4");
+        MapKitFactory.setApiKey("NoKeyForGit");
         MapKitFactory.initialize(this);
         mapIntent = new Intent(this, MapActivityYandex.class);
         dateTimeIntent = new Intent(this, DateTime.class);

@@ -273,7 +273,7 @@ public class MapActivityYandex extends AppCompatActivity {
         Point point = mapView.getMap().getCameraPosition().getTarget();
         lon = point.getLongitude();
         lat = point.getLatitude();
-        url1 = "https://geocode-maps.yandex.ru/1.x/?apikey=e7223c7a-7840-41e3-b4c7-7ef8948c63e4&format=json&geocode=" + lon + "," + lat + locale;
+        url1 = "https://geocode-maps.yandex.ru/1.x/?apikey=NoKeyForGit&format=json&geocode=" + lon + "," + lat + locale;
         new RequestTask().execute();
     }
 
@@ -342,5 +342,5 @@ public class MapActivityYandex extends AppCompatActivity {
         MapKitFactory.getInstance().onStart();
     }
 
-    //https://geocode-maps.yandex.ru/1.x/?apikey=e7223c7a-7840-41e3-b4c7-7ef8948c63e4&format=json&geocode=68.772070,38.559624&lang=en_US
+    //https://geocode-maps.yandex.ru/1.x/?apikey=NoKeyForGit&format=json&geocode=68.772070,38.559624&lang=en_US
 }
