@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "216264740029",
+    "firebase_url": "https://dushanbeonline-fc7ed.firebaseio.com",
+    "project_id": "dushanbeonline-fc7ed",
+    "storage_bucket": "dushanbeonline-fc7ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216264740029:android:2741d8a8e6a8e521",
+        "android_client_info": {
+          "package_name": "beka.com.bk.dushanbeonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216264740029-2o83o0idqtleujt6m5oa63uj2g0ffltu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "beka.com.bk.dushanbeonline",
+            "certificate_hash": "8c6e423ec8b37fe514ff035d2ad8aa1db0cd52d9"
+          }
+        },
+        {
+          "client_id": "216264740029-nt6t8lo41ad4sdaf7so5qvn476aukb1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBszkyRIjtG8TpftQ9YK67OoWgwua8VcSg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216264740029-nt6t8lo41ad4sdaf7so5qvn476aukb1f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
